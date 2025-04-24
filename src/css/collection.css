@@ -1,0 +1,49 @@
+.collections {
+  margin-bottom: 20px;
+}
+.collections-title p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+}
+.collections-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 0.5px solid #323935;
+  border-radius: 10px;
+  background-color: #00f092;
+  box-shadow: 3px 3px 0px #fbb606;
+  cursor: pointer;
+}
+.collections-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.collections-cards {
+  border: 1px solid black;
+  max-height: 600px;
+}
+.collections-cards img {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 250px;
+  max-height: 200px;
+  object-fit: cover;
+}
