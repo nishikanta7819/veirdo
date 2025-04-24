@@ -1,19 +1,17 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "../css/navbar.css";
 import user from "../assets/user.png";
 import wishlist from "../assets/wishlist.png";
 import cart from "../assets/market.png";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react"; 
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
-
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
   };
-
 
   return (
     <div className="navbar">
@@ -25,11 +23,6 @@ const Navbar = () => {
           />
         </Link>
       </div>
-
-      <div className="navbar-toggle" onClick={toggleMenu}>
-        {menuOpen ? <X size={24} /> : <Menu size={24} />}
-      </div>
-
       <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <ul>
           <li>oversized t-shirts</li>
@@ -53,6 +46,9 @@ const Navbar = () => {
         <Link to="/cart">
           <img src={cart} alt="" />
         </Link>
+      </div>
+      <div className="navbar-toggle" onClick={toggleMenu}>
+        {menuOpen ? <X size={24} /> : <Menu size={24} />}
       </div>
     </div>
   );

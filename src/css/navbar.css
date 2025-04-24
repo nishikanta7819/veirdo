@@ -42,6 +42,9 @@
 .navbar-btns img {
   height: 25px;
 }
+.navbar-toggle{
+  display: none;
+}
 
 /* ========== Responsive Styles ========== */
 @media (max-width: 768px) {
