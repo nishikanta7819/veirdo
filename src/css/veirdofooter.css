@@ -127,3 +127,32 @@
 .veirdo-footer-copyright {
   font-size: 12px;
 }
+
+
+
+/* ========== Responsive Styles ========== */
+@media (max-width: 768px) {
+  .veirdo-footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .veirdo-footer-bottom-extras {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .veirdo-footer-search {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .veirdo-footer-search input,
+  .veirdo-footer-search button {
+    width: 100%;
+  }
+
+  .veirdo-footer-socials-links {
+    justify-content: flex-start;
+  }
+}
