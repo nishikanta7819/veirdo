@@ -7,3 +7,12 @@
   object-fit: cover;
   width: 100%;
 }
+
+/* Optional: You can add some height control for very small devices */
+@media (max-width: 768px) {
+  .hero-banner-img {
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+}
