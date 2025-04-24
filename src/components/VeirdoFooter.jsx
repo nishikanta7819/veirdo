@@ -27,15 +27,24 @@ const VeirdoFooter = () => {
               <p>instagram</p>
             </div>
             <div className="veirdo-footer-socials-link">
-              <img src="https://cdn-icons-png.flaticon.com/128/3536/3536569.png" alt="" />
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/3536/3536569.png"
+                alt=""
+              />
               <p>linkedin</p>
             </div>
             <div className="veirdo-footer-socials-link">
-              <img src="https://cdn-icons-png.flaticon.com/128/733/733635.png" alt="" />
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/733/733635.png"
+                alt=""
+              />
               <p>twitter</p>
             </div>
             <div className="veirdo-footer-socials-link">
-              <img src="https://cdn-icons-png.flaticon.com/128/733/733641.png" alt="" />
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/733/733641.png"
+                alt=""
+              />
               <p>whatsapp</p>
             </div>
           </div>
@@ -51,23 +60,28 @@ const VeirdoFooter = () => {
               <p>t-shirts</p>
               <p>cargos</p>
             </div>
+
             <div className="company">
               <h4>Company</h4>
-              <p>about-us</p>
-              <p>blog</p>
-              <p>privacy policy</p>
-              <p>terms & conditions</p>
-              <p>work with us</p>
+              <p>winter-wear</p>
+              <p>oversized t-shirts</p>
+              <p>new arrivals</p>
+              <p>bestsellers</p>
+              <p>t-shirts</p>
+              <p>cargos</p>
             </div>
             <div className="customers">
               <h4>customers</h4>
-              <p>contact us</p>
-              <p>faqs</p>
-              <p>shipping policy</p>
-              <p>refund policy</p>
+              <p>winter-wear</p>
+              <p>oversized t-shirts</p>
+              <p>new arrivals</p>
+              <p>bestsellers</p>
+              <p>t-shirts</p>
+              <p>cargos</p>
             </div>
           </div>
         </div>
+
         <div className="veirdo-footer-animate">
           <span>find your flip side</span>
         </div>

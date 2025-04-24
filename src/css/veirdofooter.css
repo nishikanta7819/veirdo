@@ -141,18 +141,14 @@
     flex-direction: column;
     gap: 20px;
   }
-
-  .veirdo-footer-search {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .veirdo-footer-search input,
-  .veirdo-footer-search button {
-    width: 100%;
-  }
-
+.veirdo-footer-search{
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
   .veirdo-footer-socials-links {
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 200px;
   }
 }
