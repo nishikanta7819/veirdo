@@ -58,12 +58,6 @@ const VeirdoHero = () => {
               className="hero-banner-img"
             />
           </SwiperSlide>
-          <SwiperSlide>
-            <img
-              src="https://veirdo.in/cdn/shop/files/1440_550_1.png?v=1741241647"
-              alt=""
-            />
-          </SwiperSlide>
         </Swiper>
       </div>
     </>

@@ -39,11 +39,11 @@ const BestSellers = () => {
       <div className="best-sellers-title">
         <p>our bestsellers</p>
       </div>
-      <div className="best-sellers-products">
-        {bestsellersData.map((product) => (
-          <BestsellerCard key={product.id} product={product} />
-        ))}
-      </div>
+          <div className="best-sellers-products">
+            {bestsellersData.map((product) => (
+              <BestsellerCard key={product.id} product={product} />
+            ))}
+          </div>
       <div className="bestsellers-btn">
         <button>see more bestsellers</button>
       </div>
