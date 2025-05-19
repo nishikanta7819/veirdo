@@ -1,7 +1,7 @@
 .bestseller-card {
   border: 1px solid hsl(0, 0%, 70%);
   border-radius: 10px;
-  width: 100%;
+  width:300px;
   /* max-width: 300px; */
   height: 100%;
   display: flex;

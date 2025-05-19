@@ -40,15 +40,9 @@
   margin-bottom: 25px;
 }
 .best-sellers-cards {
-  border: 1px solid black;
-  max-height: 600px;
-}
-.best-sellers-cards img {
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 250px;
-  max-height: 200px;
-  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .swiper-button-next,
 .swiper-button-prev {
