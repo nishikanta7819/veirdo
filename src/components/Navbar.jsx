@@ -15,6 +15,9 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
+      <div className="navbar-toggle" onClick={toggleMenu}>
+        {menuOpen ? <X size={24} /> : <Menu size={24} />}
+      </div>
       <div className="navbar-logo">
         <Link to={"/"}>
           <img
@@ -46,9 +49,6 @@ const Navbar = () => {
         <Link to="/cart">
           <img src={cart} alt="" />
         </Link>
-      </div>
-      <div className="navbar-toggle" onClick={toggleMenu}>
-        {menuOpen ? <X size={24} /> : <Menu size={24} />}
       </div>
     </div>
   );

@@ -51,7 +51,6 @@
   .navbar-toggle {
     display: block;
   }
-
   .navbar-links {
     display: none;
     width: 100%;
@@ -77,4 +76,21 @@
   .navbar-search {
     display: none;
   }
+}
+@media(max-width:450px){
+  .navbar{
+    gap: 10px;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar-logo{
+    padding-right: 90px;
+  }
+  .navbar-btns{
+    gap: 5px;
+  }
+  .navbar-btns img {
+  height: 20px;
+}
 }

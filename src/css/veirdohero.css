@@ -22,3 +22,9 @@
     font-size: var(--swiper-navigation-size);
   }
 }
+@media (max-width: 450px) {
+  .veirdo-hero {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
