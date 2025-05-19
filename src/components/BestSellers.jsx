@@ -2,6 +2,12 @@ import React from "react";
 import "../css/bestsellers.css";
 import BestsellerCard from "./BestsellerCard";
 
+// Swiper imports
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css"; // core Swiper
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+
 const BestSellers = () => {
   const bestsellersData = [
     {
@@ -31,7 +37,7 @@ const BestSellers = () => {
       originalPrice: 1799,
       discountText: "50% off",
     },
-    // Add more as needed
+    // Add more if needed
   ];
 
   return (
@@ -39,11 +45,31 @@ const BestSellers = () => {
       <div className="best-sellers-title">
         <p>our bestsellers</p>
       </div>
-          <div className="best-sellers-products">
-            {bestsellersData.map((product) => (
-              <BestsellerCard key={product.id} product={product} />
-            ))}
-          </div>
+
+      <Swiper
+        modules={[Navigation]}
+        spaceBetween={20}
+        slidesPerView={3}
+        navigation
+        breakpoints={{
+          1024: {
+            slidesPerView: 3,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+        }}
+      >
+        {bestsellersData.map((product) => (
+          <SwiperSlide key={product.id}>
+            <BestsellerCard product={product} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
       <div className="bestsellers-btn">
         <button>see more bestsellers</button>
       </div>

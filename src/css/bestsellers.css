@@ -1,6 +1,8 @@
 .best-sellers {
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .best-sellers-title p {
   display: flex;
@@ -48,18 +50,8 @@
   max-height: 200px;
   object-fit: cover;
 }
-
-/* Responsive */
-@media (max-width: 450px) {
-  .best-sellers-products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    overflow: hidden;
-  }
-  .best-sellers-cards img {
-    width: 100px;
-  }
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
 }
+
