@@ -1,6 +1,6 @@
-.best-sellers{
-    margin-top:20px ;
-    margin-bottom: 20px;
+.best-sellers {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .best-sellers-title p {
   display: flex;
@@ -10,51 +10,56 @@
   font-size: 18px;
   font-weight: 600;
 }
-.bestsellers-btn button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: 0.5px solid #323935;
-    border-radius: 10px;
-    background-color: #00f092;
-    box-shadow: 3px 3px 0px #fbb606;
-    cursor: pointer;
+.bestsellers-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 0.5px solid #323935;
+  border-radius: 10px;
+  background-color: #00f092;
+  box-shadow: 3px 3px 0px #fbb606;
+  cursor: pointer;
 }
-.best-sellers-products{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+.best-sellers-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-.best-sellers-cards{
-    border: 1px solid black;
-    max-height: 600px;
+.best-sellers-cards {
+  border: 1px solid black;
+  max-height: 600px;
 }
-.best-sellers-cards img{
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 250px;
-    max-height: 200px;
-    object-fit: cover;
+.best-sellers-cards img {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 250px;
+  max-height: 200px;
+  object-fit: cover;
 }
-
-
 
 /* Responsive */
-@media(max-width:480px){
-    .best-sellers-products{
-        display: flex;
-        flex-direction: row;
-    }
+@media (max-width: 450px) {
+  .best-sellers-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+  }
+  .best-sellers-cards img {
+    width: 100px;
+  }
 }
