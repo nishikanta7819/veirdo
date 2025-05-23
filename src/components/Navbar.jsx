@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import "../css/navbar.css";
 import user from "../assets/user.png";
 import wishlist from "../assets/wishlist.png";
@@ -9,7 +9,7 @@ import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
@@ -30,11 +30,13 @@ const Navbar = () => {
       </div>
       <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <ul>
-          <li onClick={()=>navigate("/oversized-tshirt")}>oversized t-shirts</li>
-          <li>regular fit t-shirts</li>
-          <li>new arrivals</li>
-          <li>top wear</li>
-          <li onClick={()=>navigate("/bottom-wear")}>bottom wear</li>
+          <li onClick={() => navigate("/oversized-tshirt")}>
+            oversized t-shirts
+          </li>
+          <li onClick={() => navigate("/hoodies")}>hoodies & sweatshirts</li>
+          <li>polo t-shirts</li>
+          <li>plus size t-shirts</li>
+          <li onClick={() => navigate("/bottom-wear")}>bottom wear</li>
           <li>merchandise</li>
         </ul>
       </div>

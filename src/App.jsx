@@ -13,6 +13,8 @@ import TopCategories from "./components/TopCategories";
 import Aboutus from "./components/Aboutus";
 import Merch from "./components/Merch";
 import BottomWear from "./components/BottomWear";
+import NewArrivals from "./components/NewArrivals";
+import HoodiesSweatshirts from "./components/HoodiesSweatshirts";
 
 const App = () => {
   return (
@@ -27,6 +29,7 @@ const App = () => {
               <BestSellers />
               <Collection />
               <TopCategories />
+              <NewArrivals/>
               <Aboutus />
               <Merch />
             </>
@@ -37,6 +40,7 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/oversized-tshirt" element={<OverSizedTshirt />} />
         <Route path="/bottom-wear" element={<BottomWear />} />
+        <Route path="/hoodies" element={<HoodiesSweatshirts />} />
       </Routes>
       <VeirdoFooter />
     </div>

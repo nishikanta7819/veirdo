@@ -29,6 +29,8 @@ const allProducts = [
     discountPrice: 549,
     originalPrice: 1199,
     discountText: "54% off",
+    newarrivals: "no",
+    centrestage:"yes",
   },
   {
     id: 4,
@@ -39,6 +41,7 @@ const allProducts = [
     discountPrice: 549,
     originalPrice: 1199,
     discountText: "54% off",
+    newarrivals: "yes",
   },
   {
     id: 5,
@@ -70,6 +73,7 @@ const allProducts = [
     discountPrice: 549,
     originalPrice: 1199,
     discountText: "54% off",
+    newarrivals: "yes",
   },
   {
     id: 8,
@@ -80,6 +84,7 @@ const allProducts = [
     discountPrice: 549,
     originalPrice: 1199,
     discountText: "54% off",
+    newarrivals: "yes",
   },
   {
     id: 9,
@@ -110,6 +115,94 @@ const allProducts = [
     discountPrice: 1499,
     originalPrice: 3999,
     discountText: "63% off",
+    centrestage: "yes",
+  },
+  {
+    id: 12,
+    type: "hoodies",
+    image:
+      "https://veirdo.in/cdn/shop/files/Artboard_23.png?v=1736573881&width=533",
+    title: "World of Illusion Green Back Printed Regular Fit Hoodie",
+    discountPrice: 999,
+    originalPrice: 2999,
+    discountText: "57% off",
+    centrestage: "yes",
+  },
+  {
+    id: 13,
+    type: "hoodies",
+    image: "https://veirdo.in/cdn/shop/files/65.jpg?v=1729754824&width=533",
+    title: "Skull Dark Blue Back Graphic Printed Regular Fit Hoodie",
+    discountPrice: 999,
+    originalPrice: 1999,
+    discountText: "50% off",
+    centrestage: "no",
+  },
+  {
+    id: 14,
+    type: "hoodies",
+    image:
+      "https://veirdo.in/cdn/shop/files/Artboard_123_1.jpg?v=1729763398&width=533",
+    title: "Purple Plain Regular Hoodie",
+    discountPrice: 999,
+    originalPrice: 1999,
+    discountText: "50% off",
+    centrestage: "no",
+  },
+  {
+    id: 15,
+    type: "hoodies",
+    image: "https://veirdo.in/cdn/shop/files/38_1.jpg?v=1729060807&width=533",
+    title: "Green Oversized Plain Sweatshirt",
+    discountPrice: 799,
+    originalPrice: 1999,
+    discountText: "60% off",
+    centrestage: "no",
+    newarrivals:"yes",
+  },
+  {
+    id: 16,
+    type: "hoodies",
+    image:
+      "https://veirdo.in/cdn/shop/files/4_9_489add35-f6ab-4724-9733-dae7522cf507.jpg?v=1735045500&width=533",
+    title: "Dark Green Plain Regular Fit Hoodie",
+    discountPrice: 999,
+    originalPrice: 1999,
+    discountText: "50% off",
+    centrestage: "yes",
+  },
+  {
+    id: 17,
+    type: "hoodies",
+    image:
+      "https://veirdo.in/cdn/shop/files/47_0da620db-f8d0-4d60-a00d-2bf2a03461c4.jpg?v=1729506781&width=533",
+    title: "Integrity Graphic Print Oversized Hooded Sweatshirt",
+    discountPrice: 999,
+    originalPrice: 2799,
+    discountText: "64% off",
+    centrestage: "no",
+  },
+  {
+    id: 18,
+    type: "hoodies",
+    image:
+      "https://veirdo.in/cdn/shop/files/51_1_23bf5d9e-3ef1-4cc2-a197-6beccdd3d6aa.jpg?v=1729750441&width=533",
+    title: "Beige Solid Regular Hoodie",
+    discountPrice: 999,
+    originalPrice: 199,
+    discountText: "50% off",
+    centrestage: "no",
+  },
+  {
+    id: 19,
+    type: "hoodies",
+    image:
+      "https://veirdo.in/cdn/shop/files/40_2.jpg?v=1729766638&width=533",
+    title: "Keep Growing Purple Front Printed Regular Fit Sweatshirt",
+    discountPrice: 999,
+    originalPrice: 199,
+    discountText: "50% off",
+    centrestage: "no",
   },
 ];
 export default allProducts;
