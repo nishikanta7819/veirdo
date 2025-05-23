@@ -11,10 +11,10 @@ const OverSizedTshirt = () => {
     <div className="nav-link-products">
       <div className="nav-link-products-heading">
         <div className="nav-link-products-title">
-          <p>T Shirts for Men</p>
+          <p>OverSized T-Shirts for Men</p>
         </div>
         <div className="nav-link-products-count">
-          <p>8 Items</p>
+          <p>{OverSizedTshirt.length} items</p>
         </div>
       </div>
       <div className="nav-link-all-products">

@@ -31,9 +31,16 @@
   .top-categories-title p {
     font-size: 15px;
   }
+  .top-categories {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+   .top-categories-img{
+    gap: 10px;
+   }
   .top-categories-img img {
-    height: 90px;
-    width: 60px;
+    height: 120px;
+    width: 80px;
     object-fit: cover;
   }
 }

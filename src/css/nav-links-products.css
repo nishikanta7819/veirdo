@@ -1,6 +1,6 @@
 .nav-link-products {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -16,4 +16,11 @@
 }
 .nav-link-products-count {
   color: gray;
+}
+.nav-link-all-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }

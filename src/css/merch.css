@@ -1,5 +1,6 @@
 .merch{
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 .merch-title p {
   display: flex;

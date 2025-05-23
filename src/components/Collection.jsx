@@ -35,16 +35,6 @@ const Collection = () => {
       originalPrice: 1499,
       discountText: "53% off",
     },
-    {
-      id: 4,
-      image:
-        "https://veirdo.in/cdn/shop/files/1_13_8756eefd-b3b7-490b-b214-695f131da9c5.jpg?v=1734944479&width=533",
-      title: "Veirdo Original Beige Oversized",
-      discountPrice: 699,
-      originalPrice: 1499,
-      discountText: "53% off",
-    },
-    // Add more as needed
   ];
 
   return (
