@@ -34,7 +34,7 @@ const Navbar = () => {
           <li>regular fit t-shirts</li>
           <li>new arrivals</li>
           <li>top wear</li>
-          <li>bottom wear</li>
+          <li onClick={()=>navigate("/bottom-wear")}>bottom wear</li>
           <li>merchandise</li>
         </ul>
       </div>

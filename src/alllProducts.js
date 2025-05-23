@@ -2,12 +2,12 @@ const allProducts = [
   {
     id: 1,
     type: "oversized-tshirt",
-    image:
-      "https://veirdo.in/cdn/shop/files/5_1_45b82bbc-f648-4ca5-a2cd-97f50e53be93.jpg?v=1732275230&width=533",
-    title: "Originals Beige Oversized Graphic print",
+    image: "https://veirdo.in/cdn/shop/files/05_06.jpg?v=1723287774&width=533",
+    title: "Veirdo Blue Oversized Back Graphic Printed Tshirt",
     discountPrice: 549,
     originalPrice: 1199,
     discountText: "54% off",
+    bestseller: "yes",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ const allProducts = [
     bestseller: "yes",
   },
   {
-    id: 5,
+    id: 6,
     type: "oversized-tshirt",
     image:
       "https://veirdo.in/cdn/shop/files/Artboard_29.png?v=1726318033&width=533",
@@ -63,7 +63,7 @@ const allProducts = [
     bestseller: "yes",
   },
   {
-    id: 5,
+    id: 7,
     type: "oversized-tshirt",
     image: "https://veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=533",
     title: "Everything Gonna Be Okay Lilac Oversized Printed Tshirt",
@@ -73,13 +73,44 @@ const allProducts = [
     bestseller: "yes",
   },
   {
-    id: 5,
+    id: 8,
     type: "oversized-tshirt",
-    image: "https://veirdo.in/cdn/shop/files/Black-Spidey-Original-Marvel-Oversized-Tee-Veirdo-7773.jpg?v=1707127141&width=533",
+    image:
+      "https://veirdo.in/cdn/shop/files/Black-Spidey-Original-Marvel-Oversized-Tee-Veirdo-7773.jpg?v=1707127141&width=533",
     title: "Spiderman Black Oversized Back Typographic Printed Tshirt",
     discountPrice: 549,
     originalPrice: 1199,
     discountText: "54% off",
+  },
+  {
+    id: 9,
+    type: "cargos",
+    image:
+      "https://veirdo.in/cdn/shop/files/01_0012_plp.jpg?v=1733905700&width=533",
+    title: "Beige Bellow Pocket Woven Exclusive Cargo Pant",
+    discountPrice: 1499,
+    originalPrice: 3999,
+    discountText: "63% off",
+  },
+  {
+    id: 10,
+    type: "cargos",
+    image:
+      "https://veirdo.in/cdn/shop/files/01_0007_1.jpg?v=1733905826&width=533",
+    title: "Grey Flap Pocket Woven Exclusive Cargo Pant",
+    discountPrice: 1499,
+    originalPrice: 3999,
+    discountText: "63% off",
+  },
+  {
+    id: 11,
+    type: "cargos",
+    image:
+      "https://veirdo.in/cdn/shop/files/01_0002_10.jpg?v=1732873143&width=533",
+    title: "Black Flap Pocket Woven Exclusive Cargo Pant",
+    discountPrice: 1499,
+    originalPrice: 3999,
+    discountText: "63% off",
   },
 ];
 export default allProducts;

@@ -12,6 +12,7 @@ import OverSizedTshirt from "./components/OverSizedTshirt";
 import TopCategories from "./components/TopCategories";
 import Aboutus from "./components/Aboutus";
 import Merch from "./components/Merch";
+import BottomWear from "./components/BottomWear";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/oversized-tshirt" element={<OverSizedTshirt />} />
+        <Route path="/bottom-wear" element={<BottomWear />} />
       </Routes>
       <VeirdoFooter />
     </div>
