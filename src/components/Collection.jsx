@@ -52,29 +52,9 @@ const Collection = () => {
         <p>centre stage collection</p>
       </div>
       <div className="collections-products">
-        <Swiper
-          modules={[Navigation]}
-          spaceBetween={20}
-          slidesPerView={3}
-          navigation
-          breakpoints={{
-            1024: {
-              slidesPerView: 3,
-            },
-            768: {
-              slidesPerView: 2,
-            },
-            0: {
-              slidesPerView: 1,
-            },
-          }}
-        >
-          {collectionsData.map((product) => (
-            <SwiperSlide key={product.id}>
-              <CollectionsCard product={product} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        {collectionsData.map((product) => (
+          <CollectionsCard key={product.id} product={product} />
+        ))}
       </div>
       <div className="collections-btn">
         <button>explore all products</button>

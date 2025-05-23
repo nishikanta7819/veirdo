@@ -2,12 +2,6 @@ import React from "react";
 import "../css/bestsellers.css";
 import BestsellerCard from "./BestsellerCard";
 
-// Swiper imports
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css"; // core Swiper
-import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
-
 const BestSellers = () => {
   const bestsellersData = [
     {
@@ -46,6 +40,24 @@ const BestSellers = () => {
       originalPrice: 1799,
       discountText: "50% off",
     },
+    {
+      id: 5,
+      image:
+        "https://veirdo.in/cdn/shop/files/vb200.jpg?v=1728462042&width=533",
+      title: "Veirdo Original Beige Oversized",
+      discountPrice: 899,
+      originalPrice: 1799,
+      discountText: "50% off",
+    },
+    {
+      id: 6,
+      image:
+        "https://veirdo.in/cdn/shop/files/vb200.jpg?v=1728462042&width=533",
+      title: "Veirdo Original Beige Oversized",
+      discountPrice: 899,
+      originalPrice: 1799,
+      discountText: "50% off",
+    },
     // Add more if needed
   ];
 
@@ -55,29 +67,9 @@ const BestSellers = () => {
         <p>our bestsellers</p>
       </div>
       <div className="best-sellers-cards">
-        <Swiper
-          modules={[Navigation]}
-          spaceBetween={20}
-          slidesPerView={3}
-          navigation
-          breakpoints={{
-            1024: {
-              slidesPerView: 3,
-            },
-            768: {
-              slidesPerView: 2,
-            },
-            0: {
-              slidesPerView: 1,
-            },
-          }}
-        >
-          {bestsellersData.map((product) => (
-            <SwiperSlide key={product.id}>
-              <BestsellerCard product={product} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        {bestsellersData.map((product) => (
+          <BestsellerCard key={product.id} product={product} />
+        ))}
       </div>
 
       <div className="bestsellers-btn">
