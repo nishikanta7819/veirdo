@@ -42,7 +42,7 @@
 .navbar-btns img {
   height: 25px;
 }
-.navbar-toggle{
+.navbar-toggle {
   display: none;
 }
 
@@ -77,20 +77,20 @@
     display: none;
   }
 }
-@media(max-width:450px){
-  .navbar{
+@media (max-width: 450px) {
+  .navbar {
     gap: 10px;
     justify-content: space-around;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .navbar-logo{
+  .navbar-logo {
     padding-right: 90px;
   }
-  .navbar-btns{
-    gap: 5px;
+  .navbar-btns {
+    gap: 10px;
   }
   .navbar-btns img {
-  height: 20px;
-}
+    height: 20px;
+  }
 }

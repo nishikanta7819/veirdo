@@ -58,7 +58,7 @@
   cursor: pointer;
   gap: 10px;
 }
-.veirdo-footer-socials-link img{
+.veirdo-footer-socials-link img {
   height: 20px;
 }
 .veirdo-footer-socials-link:hover {
@@ -128,24 +128,21 @@
   font-size: 12px;
 }
 
-
-
 /* ========== Responsive Styles ========== */
 @media (max-width: 768px) {
   .veirdo-footer-top {
     flex-direction: column;
     align-items: flex-start;
   }
-
   .veirdo-footer-bottom-extras {
     flex-direction: column;
     gap: 20px;
   }
-.veirdo-footer-search{
-  display: flex;
-  width: 100%;
-  gap: 5px;
-}
+  .veirdo-footer-search {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+  }
   .veirdo-footer-socials-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

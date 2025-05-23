@@ -3,7 +3,8 @@ import "swiper/css"; // core Swiper
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import "../css/collection.css";
-import CollectionsCard from "./CollectionsCard";
+import ProductCard from "./ProductCard";
+import Btn from "./Btn";
 
 const Collection = () => {
   const collectionsData = [
@@ -43,24 +44,6 @@ const Collection = () => {
       originalPrice: 1499,
       discountText: "53% off",
     },
-    {
-      id: 5,
-      image:
-        "https://veirdo.in/cdn/shop/files/1_13_8756eefd-b3b7-490b-b214-695f131da9c5.jpg?v=1734944479&width=533",
-      title: "Veirdo Original Beige Oversized",
-      discountPrice: 699,
-      originalPrice: 1499,
-      discountText: "53% off",
-    },
-    {
-      id: 6,
-      image:
-        "https://veirdo.in/cdn/shop/files/1_13_8756eefd-b3b7-490b-b214-695f131da9c5.jpg?v=1734944479&width=533",
-      title: "Veirdo Original Beige Oversized",
-      discountPrice: 699,
-      originalPrice: 1499,
-      discountText: "53% off",
-    },
     // Add more as needed
   ];
 
@@ -71,11 +54,11 @@ const Collection = () => {
       </div>
       <div className="collections-products">
         {collectionsData.map((product) => (
-          <CollectionsCard key={product.id} product={product} />
+          <ProductCard key={product.id} product={product} />
         ))}
       </div>
       <div className="collections-btn">
-        <button>explore all products</button>
+        <Btn>explore all products</Btn>
       </div>
     </div>
   );

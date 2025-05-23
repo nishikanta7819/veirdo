@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/bestsellers.css";
-import BestsellerCard from "./BestsellerCard";
+import ProductCard from "./ProductCard";
+import Btn from "./Btn";
 
 const BestSellers = () => {
   const bestsellersData = [
@@ -40,24 +41,6 @@ const BestSellers = () => {
       originalPrice: 1799,
       discountText: "50% off",
     },
-    {
-      id: 5,
-      image:
-        "https://veirdo.in/cdn/shop/files/vb200.jpg?v=1728462042&width=533",
-      title: "Veirdo Original Beige Oversized",
-      discountPrice: 899,
-      originalPrice: 1799,
-      discountText: "50% off",
-    },
-    {
-      id: 6,
-      image:
-        "https://veirdo.in/cdn/shop/files/vb200.jpg?v=1728462042&width=533",
-      title: "Veirdo Original Beige Oversized",
-      discountPrice: 899,
-      originalPrice: 1799,
-      discountText: "50% off",
-    },
     // Add more if needed
   ];
 
@@ -68,12 +51,12 @@ const BestSellers = () => {
       </div>
       <div className="best-sellers-cards">
         {bestsellersData.map((product) => (
-          <BestsellerCard key={product.id} product={product} />
+          <ProductCard key={product.id} product={product} />
         ))}
       </div>
 
       <div className="bestsellers-btn">
-        <button>see more bestsellers</button>
+        <Btn>see more bestsellers</Btn>
       </div>
     </div>
   );

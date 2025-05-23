@@ -13,25 +13,6 @@
   font-weight: 600;
   margin-bottom: 30px;
 }
-.bestsellers-btn button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 15px;
-  font-weight: 600;
-  text-transform: uppercase;
-  border: 0.5px solid #323935;
-  border-radius: 10px;
-  background-color: #00f092;
-  box-shadow: 3px 3px 0px #fbb606;
-  cursor: pointer;
-  margin-top: 30px;
-}
 .best-sellers-products {
   display: flex;
   justify-content: center;
@@ -47,4 +28,11 @@
   align-items: center;
   gap: 15px;
   flex-wrap: wrap;
+  transition: all 0.3s ease;
+}
+@media (max-width: 480px) {
+  .best-sellers-title p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
 }

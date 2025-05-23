@@ -1,24 +1,25 @@
-import "../css/bestsellercard.css";
+import React from "react";
+import '../css/productcard.css'
 import wishlist from "../assets/wishlist.png";
 
-function BestsellerCard({ product }) {
+const ProductCard = ({ product }) => {
   return (
     <>
-      <div className="bestseller-card">
-        <div className="bestseller-card-image">
+      <div className="product-card">
+        <div className="product-card-image">
           <img src={product.image} alt={product.title} />
         </div>
-        <div className="bestseller-card-price">
+        <div className="product-card-price">
           <div className="discounted-price">${product.discountPrice}</div>
           <div className="original-price">
             <p>${product.originalPrice}</p>
           </div>
           <div className="price-off">{product.discountText}</div>
         </div>
-        <div className="bestseller-card-desc">
+        <div className="product-card-desc">
           <p>{product.title}</p>
         </div>
-        <div className="bestseller-btn">
+        <div className="product-btn">
           <div className="add-to-cart">
             <p>add to cart</p>
           </div>
@@ -29,6 +30,6 @@ function BestsellerCard({ product }) {
       </div>
     </>
   );
-}
+};
 
-export default BestsellerCard;
+export default ProductCard;

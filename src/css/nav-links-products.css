@@ -1,0 +1,19 @@
+.nav-link-products {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.nav-link-products-heading {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+.nav-link-products-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.nav-link-products-count {
+  color: gray;
+}
