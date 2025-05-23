@@ -66,11 +66,10 @@ const allProducts = [
     id: 7,
     type: "oversized-tshirt",
     image: "https://veirdo.in/cdn/shop/files/01_02.jpg?v=1730189513&width=533",
-    title: "Everything Gonna Be Okay Lilac Oversized Printed Tshirt",
+    title: "ALWAYS LONELY AT THE TOP Black Oversized Back Puff Printed Tshirt",
     discountPrice: 549,
     originalPrice: 1199,
     discountText: "54% off",
-    bestseller: "yes",
   },
   {
     id: 8,
