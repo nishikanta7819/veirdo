@@ -58,14 +58,13 @@
   height: 25px;
 }
 
-
 @media (max-width: 480px) {
   .collection-card {
-    height: 200px;
+    height: 250px;
     width: calc(50% - 10px);
   }
   .collection-card-image img {
-    height: 80px;
+    height: 150px;
   }
   .collection-card-price {
     font-size: 8px;

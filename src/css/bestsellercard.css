@@ -71,11 +71,11 @@
 
 @media (max-width: 480px) {
   .bestseller-card {
-    height: 200px;
+    height: 250px;
     width: calc(50% - 10px);
   }
   .bestseller-card-image img {
-    height: 80px;
+    height: 150px;
   }
   .bestseller-card-price {
     font-size: 8px;
