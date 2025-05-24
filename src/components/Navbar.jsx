@@ -30,13 +30,13 @@ const Navbar = () => {
       </div>
       <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <ul>
-          <li onClick={() => navigate("/oversized-tshirt")}>
+          <li onClick={() => navigate("/oversized-tshirts")}>
             oversized t-shirts
           </li>
+          <li onClick={() => navigate("/polo-tshirts")}>polo t-shirts</li>
           <li onClick={() => navigate("/hoodies")}>hoodies & sweatshirts</li>
-          <li>polo t-shirts</li>
-          <li>plus size t-shirts</li>
-          <li onClick={() => navigate("/bottom-wear")}>bottom wear</li>
+          <li onClick={() => navigate("/classic-fit-tshirts")}>classic fit t-shirts</li>
+          <li onClick={() => navigate("/bottom-wears")}>bottom wears</li>
           <li>merchandise</li>
         </ul>
       </div>

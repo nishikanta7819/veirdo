@@ -13,6 +13,8 @@ import Merch from "./components/Merch";
 import BottomWear from "./components/BottomWear";
 import NewArrivals from "./components/NewArrivals";
 import HoodiesSweatshirts from "./components/HoodiesSweatshirts";
+import PoloTShirts from "./components/PoloTShirts";
+import ClassicFitTshirts from "./components/ClassicFitTshirts";
 
 const App = () => {
   return (
@@ -34,8 +36,10 @@ const App = () => {
         />
         <Route path="/profile" element={<Profile />} />
         <Route path="/wishlist" element={<Wishlist />} />
-        <Route path="/oversized-tshirt" element={<OverSizedTshirt />} />
-        <Route path="/bottom-wear" element={<BottomWear />} />
+        <Route path="/oversized-tshirts" element={<OverSizedTshirt />} />
+        <Route path="/polo-tshirts" element={<PoloTShirts />} />
+        <Route path="/classic-fit-tshirts" element={<ClassicFitTshirts />} />
+        <Route path="/bottom-wears" element={<BottomWear />} />
         <Route path="/hoodies" element={<HoodiesSweatshirts />} />
       </Routes>
       <VeirdoFooter />
