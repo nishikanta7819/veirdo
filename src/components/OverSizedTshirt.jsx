@@ -9,6 +9,12 @@ const OverSizedTshirt = () => {
   );
   return (
     <div className="nav-link-products">
+      <div className="nav-link-banner">
+        <img
+          src="https://cdn.shopify.com/s/files/1/1982/7331/files/1440_550_copy_3.png?v=1742922059"
+          alt=""
+        />
+      </div>
       <div className="nav-link-products-heading">
         <div className="nav-link-products-title">
           <p>OverSized T-Shirts for Men</p>

@@ -9,6 +9,12 @@ const HoodiesSweatshirts = () => {
   );
   return (
     <div className="nav-link-products">
+        <div className="nav-link-banner">
+        <img
+          src="https://cdn.shopify.com/s/files/1/1982/7331/files/Artboard_1_copy_a7277561-4d03-44e6-a20e-3e438ce678bf.png?v=1737783671"
+          alt=""
+        />
+      </div>
       <div className="nav-link-products-heading">
         <div className="nav-link-products-title">
           <p>Hoodies & Sweatshirts</p>

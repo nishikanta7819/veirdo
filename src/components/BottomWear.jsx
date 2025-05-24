@@ -9,6 +9,12 @@ const BottomWear = () => {
   );
   return (
     <div className="nav-link-products">
+      <div className="nav-link-banner">
+        <img
+          src="https://cdn.shopify.com/s/files/1/1982/7331/files/Centre_stage_banners-16.png?v=1737117460"
+          alt=""
+        />
+      </div>
       <div className="nav-link-products-heading">
         <div className="nav-link-products-title">
           <p>Cargo Pants for Men</p>

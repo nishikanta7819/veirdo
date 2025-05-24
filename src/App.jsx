@@ -9,7 +9,6 @@ import Profile from "./pages/Profile";
 import Wishlist from "./pages/Wishlist";
 import Cart from "./pages/Cart";
 import OverSizedTshirt from "./components/OverSizedTshirt";
-import TopCategories from "./components/TopCategories";
 import Aboutus from "./components/Aboutus";
 import Merch from "./components/Merch";
 import BottomWear from "./components/BottomWear";
@@ -28,8 +27,7 @@ const App = () => {
               <VeirdoHero />
               <BestSellers />
               <Collection />
-              <TopCategories />
-              <NewArrivals/>
+              <NewArrivals />
               <Aboutus />
               <Merch />
             </>
