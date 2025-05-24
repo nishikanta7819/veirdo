@@ -86,7 +86,7 @@ const VeirdoFooter = () => {
           <span>find your flip side</span>
         </div>
         <div className="veirdo-footer-copyright">
-          <p>Copyright &Copy VEIRDO 2024</p>
+          <p>Copyright &copy; VEIRDO 2024</p>
         </div>
       </div>
     </>

@@ -8,9 +8,9 @@ const Merch = () => {
       <div className="merch-title">
         <p>geeks assemble</p>
       </div>
-      <div className="merch-cards">
+      {/* <div className="merch-cards">
         <img src="" alt="" />
-      </div>
+      </div> */}
       <div className="merch-btn">
         <Btn>see all merch</Btn>
       </div>

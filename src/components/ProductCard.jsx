@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/productcard.css'
+import "../css/productcard.css";
 import wishlist from "../assets/wishlist.png";
 
 const ProductCard = ({ product }) => {
@@ -21,7 +21,7 @@ const ProductCard = ({ product }) => {
         </div>
         <div className="product-btn">
           <div className="add-to-cart">
-            <p>add to cart</p>
+            <p>Add to Cart</p>
           </div>
           <div className="wishlist">
             <img src={wishlist} alt="wishlist" />
